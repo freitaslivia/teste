@@ -159,7 +159,7 @@ export default function Footer() {
       >
         <View style={styles.modalContainer}>
           <View style={styles.modalContent}>
-            <TouchableOpacity onPress={() => { alert('Ler QR Code'); closeHomeModal(); }} style={styles.modalButton}>
+            <TouchableOpacity onPress={() => { navigation.navigate('Home'); closeHomeModal(); }} style={styles.modalButton}>
               <Text style={styles.modalButtonText}>Ler QR Code</Text>
             </TouchableOpacity>
             <TouchableOpacity onPress={() => { navigation.navigate('AdicionarVacina'); closeHomeModal(); }} style={styles.modalButton}>

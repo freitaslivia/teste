@@ -13,7 +13,7 @@ import { Ionicons } from '@expo/vector-icons';
 import * as ImagePicker from 'expo-image-picker';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import {AsyncStorage} from '@react-native-async-storage/async-storage';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 
 
 export default function AdicionarExameScreen({ navigation, route }) {
