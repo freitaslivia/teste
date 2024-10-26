@@ -12,7 +12,7 @@ import {
 import { Ionicons } from '@expo/vector-icons';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import AsyncStorage from '@react-native-async-storage/async-storage';
+import {AsyncStorage} from '@react-native-async-storage/async-storage';
 import * as ImagePicker from 'expo-image-picker';
 
 export default function AdicionarMedicamentoScreen({ navigation, route }) {
