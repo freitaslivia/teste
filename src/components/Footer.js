@@ -160,7 +160,7 @@ export default function Footer() {
         <View style={styles.modalContainer}>
           <View style={styles.modalContent}>
             <TouchableOpacity onPress={() => { navigation.navigate('Home'); closeHomeModal(); }} style={styles.modalButton}>
-              <Text style={styles.modalButtonText}>Ler QR Code</Text>
+              <Text style={styles.modalButtonText}>Home</Text>
             </TouchableOpacity>
             <TouchableOpacity onPress={() => { navigation.navigate('AdicionarVacina'); closeHomeModal(); }} style={styles.modalButton}>
               <Text style={styles.modalButtonText}>Adicionar vacina</Text>

@@ -176,7 +176,7 @@ export default function AdicionarMedicamentoScreen({ navigation, route }) {
           onChangeText={setMedicoSolicitante}
         />
 
-      <Text style={styles.inputLabel}>foto da alergia</Text>
+      <Text style={styles.inputLabel}>foto</Text>
         <TouchableOpacity style={styles.imageContainer} onPress={pickImage}>
           {file ? (
             <Image source={{ uri: file }} style={styles.image} />

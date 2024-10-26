@@ -21,8 +21,8 @@ export default function HomeScreen({ navigation }) {
             style={styles.card}
             onPress={() => navigation.navigate('Emergencia')}>
             <View style={styles.cardHeader}>
-              <Text style={styles.cardTitle}>Marília Climeni Romeu</Text>
-              <Text style={styles.cardDate}>01 / 11 / 2023</Text>
+              <Text style={styles.cardTitle}>Isadora Martins</Text>
+              <Text style={styles.cardDate}>01 / 01 / 2000</Text>
             </View>
             <View style={styles.cardContent}>
               <Text style={styles.cardArrow}>▼</Text>
